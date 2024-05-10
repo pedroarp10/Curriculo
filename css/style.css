@@ -1,0 +1,73 @@
+/*borda preta*/
+body
+{
+    border-color: black;
+    /*borda solida*/
+    border-style: solid ;
+    border-width: 15px ;
+
+}
+/*usei esse id na foto para centralizada na pagina*/
+#centralizar
+{
+    text-align: center;
+    border-radius: 15px;
+}
+/*bacgroud no header para a foto*/
+header
+{
+    background-color: black;
+}
+/*configurações do título*/
+#titulo
+{
+    text-align: center;
+    margin: 100px;
+    /*fonte do google(salvada no head)*/
+    font-family: "Jacquard 24", system-ui;
+    color: black;
+    font-size: xx-large;
+}
+/*div 1 e dois sepadas por id, pois tem "codigos diferentes" como a mudança da text-aling*/
+#div1
+{
+    width: px;
+    /* height: 550px; */
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px ;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    font-style: normal;
+    text-align: center;
+    word-wrap: break-word;
+}
+#div2
+{
+    width: px;
+    /* height: 550px; */
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px ;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+/*e a div com o span junto*/
+#conect
+{
+    width: 100px;
+    /* height: 550px; */
+    border-color: rgb(0, 0, 0);
+    /*borda com risquinhos*/
+    border-style: dashed;
+    border-width: 3px ;
+    padding: 10px;
+    margin: 10px 30px;
+    font-style: normal;
+    text-align: center;
+    word-wrap: break-word;
+}
